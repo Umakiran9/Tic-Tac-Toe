@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+section {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: 'Roboto';
+    color: green;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 3px #333333;
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: black;
+
+    line-height: 100px;
+    font-size: 60px;
+}
+.game{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to left,  blue , red,indigo,orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+}
