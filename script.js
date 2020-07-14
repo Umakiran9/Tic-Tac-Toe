@@ -50,7 +50,7 @@ function result() {
 
     if (roundWon) {
         gameStatus.innerHTML = win();
-        gameStatus.style.color ="green"
+        gameStatus.style.color ="blue"
         gameActive = false;
         return;
     }
@@ -58,6 +58,7 @@ function result() {
     let roundDraw = !position.includes("");
     if (roundDraw) {
         gameStatus.innerHTML = draw();
+        gameStatus.style.color="blue"
         gameActive = false;
         return;
     }

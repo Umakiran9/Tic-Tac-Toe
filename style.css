@@ -3,6 +3,14 @@ body {
     
 }
 
+.restart{
+    color:white;
+    border-radius: 50%;
+    width: 10%;
+    font-size: 20px;
+    background-color:red;
+}
+
 section {
     text-align: center;
 }
@@ -16,7 +24,7 @@ section {
 
 .cell {
     font-family: 'Roboto';
-    color: green;
+    color:greenyellow;
     width: 100px;
     height: 100px;
     box-shadow: 0 0 0 3px #333333;
